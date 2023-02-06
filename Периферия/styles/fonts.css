@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'PTSans';
+    src: url(../fonts/PTSans-Bold.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'Post No Bills Jaffna';
+    src: url(../fonts/PostNoBillsJaffna-Bold.ttf);
+    font-weight: 700;
+}

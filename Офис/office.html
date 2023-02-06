@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Office</title>
+    <link rel="stylesheet" href="css1/style.css" />
+  </head>
+  <body>
+    <section class="header__nav">
+      <a href class="nav__logo"
+        ><img class="logo" src="img1/лого.jpg" alt />
+        <div class="logo__text">
+          <h1 class="logo__title">Lap.uz</h1>
+          <p class="logo__descr">Магазин компьютерной перефирии</p>
+        </div>
+      </a>
+      <input type="checkbox" id="check" />
+      <div class="nav__nav">
+        <ul class="nav__list">
+          <li>
+            <a target="_blank" href="../Главная/index.html" class="nav__link">Главная</a>
+          </li>
+          <li>
+            <a target="_blank" href="../ПК/pc.html" class="nav__link">ПК</a>
+          </li>
+          <li><a target="_blank" href="../Игровые/game.html" class="nav__link">Игровые ноутбуки</a></li>
+          <li><a target="_blank" href="../Периферия/perif.html" class="nav__link">Периферия</a></li>
+        </ul>
+        <div class="nav__btns">
+          <button id="btn" href class="nav__btn btn">Заказать</button>
+        </div>
+      </div>
+      <label for="check" class="check">
+        <span class="bars"></span>
+      </label>
+    </section>
+    <header class="header">
+      <div class="slider">
+        <div class="item">
+          <a class="previous" onclick="previousSlide()">&#10094;</a>
+          <div class="item_col">
+            <h2>Macbook Air 13</h2>
+            <p class="slider_descr">
+              <span class="slider_span_param">Экран:</span> 13.3" IPS 2560x1600
+              (16:10) / Retina Display <br />
+              <span class="slider_span_param">Процессор:</span>Apple M1 8
+              ядер<br />
+              <span class="slider_span_param">Видеокарта:</span>Apple M1 8 Ядер
+              <br />
+              <span class="slider_span_param">ОЗУ:</span> 16GB DDR4 <br />
+              <span class="slider_span_param">Накопитель: </span> 256GB PCIe®
+              NVMe™ M.2 SSD <br />
+              <span class="slider_span_param">Автономная работа</span>До 18ч без
+              подзарядки<br />
+              <span class="slider_price">16 230 500 сум</span>
+            </p>
+            <button class="btn_slider1">
+              <a href="https://macbro.uz/product/macbook-pro-13%22-(with-m1)"
+                >Заказать</a
+              >
+            </button>
+          </div>
+          <img src="img1/mac.png" alt="" />
+          <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+        <div class="item">
+          <a class="previous" onclick="previousSlide()">&#10094;</a>
+          <div class="item_col">
+            <h2>Xiaomi RedmiBook Pro 14</h2>
+            <p class="slider_descr">
+              <span class="slider_span_param">Экран:</span> 15" IPS 3200x2000
+              (16:10) 242Нит 100% sRGB <br />
+              <span class="slider_span_param">Процессор:</span>Ryzen Edition
+              R7-5800H<br />
+              <span class="slider_span_param">Видеокарта:</span>NVIDIA RTX
+              2060<br />
+              <span class="slider_span_param">ОЗУ:</span> 16GB DDR4 <br />
+              <span class="slider_span_param">Накопитель: </span> 512GB PCIe®
+              NVMe™ M.2 SSD <br />
+              <span class="slider_span_param">Автономная работа</span>До 12ч без
+              подзарядки<br />
+              <span class="slider_price">10 250 000 сум</span>
+            </p>
+            <button class="btn_slider2">
+              <a
+                href="https://mihome.uz/product/laptop-accessories/laptop/xiaomi-redmibook-pro-14-r7-5700u-512gb-16gb/"
+                >Заказать</a
+              >
+            </button>
+          </div>
+          <img src="img1/redmibook.png" alt="" />
+          <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+        <div class="item">
+          <a class="previous" onclick="previousSlide()">&#10094;</a>
+          <div class="item_col">
+            <h2>Samsung Galaxy Book Pro 15</h2>
+            <p class="slider_descr">
+              <span class="slider_span_param">Экран:</span>15.6" FHD AMOLED
+              (1920 x 1080) <br />
+              <span class="slider_span_param">Процессор:</span>Intel Core
+              i5-1135G7 <br />
+              <span class="slider_span_param">Видеокарта:</span>> Intel Iris Xe
+              Graphics<br />
+              <span class="slider_span_param">ОЗУ:</span> 8GB DDR4 <br />
+              <span class="slider_span_param">Накопитель: </span> 512GB NVMe™
+              M.2 SSD <br />
+              <span class="slider_span_param">Автономная работа</span>До 15ч без
+              подзарядки<br />
+              <span class="slider_price">9 160 000 сум</span>
+            </p>
+            <button class="btn_slider3">
+              <a
+                href="https://nout.uz/product/samsung-galaxy-book-pro-15-i5-1135g7-8-512-kupit-v-tashkente/"
+                >Заказать</a
+              >
+            </button>
+          </div>
+          <img class="samsung" src="img1/samsung.png" alt="" />
+          <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+        <div class="arrow_mobile">
+          <a class="previous_mobile" onclick="previousSlide()">&#10094;</a>
+          <a class="next_mobile" onclick="nextSlide()">&#10095;</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main"></main>
+    <section class="collection">
+      <div class="container">
+        <div class="collection_content">
+          <h3 class="collection_title">Офисные ноутбуки на ваш вкус.</h3>
+          <p class="collection_descr">Подберем ноутбук под любой бюджет.</p>
+          <div class="inspiration">
+            <img class="nout1 oimg" src="img1/n1.jpg" alt="" />
+            <img class="nout2 oimg" src="img1/nout2.jpg" alt="" />
+            <img class="nout3 oimg" src="img1/nout3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="beauty_section">
+      <div class="container">
+        <div class="beauty">
+          <div class="beauty_txt">
+            <h2 class="beauty_title">Лучший офисный ноутбук!</h2>
+            <p class="beauty_descr">
+              Один из самых лучших вариантов офисных ноутбуков за свой бюджет.
+              Отличный <span>13-ти дюймовый экран</span> , с процессором
+              <span>I7-1165G7</span>, <span>16Гб</span> оперативной памяти и
+              супер быстрой Ssd памятью на 512 Гб.
+              <span>Ssd памятью на 512 Гб.</span> Его цена составляет всего лишь
+              <br />
+              <span>17 747 500 сум</span>
+            </p>
+            <a
+              href="https://nout.uz/product/microsoft-surface-pro-8-i7-1135g7-16-512-kupit-v-tashkente/"
+              class="beauty_link"
+              >КУПИТЬ</a
+            >
+          </div>
+          <div class="nout4">
+            <img class="nout4_img" src="img1/microsoft.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="type">
+      <div class="container">
+        <div class="type_content">
+          <div class="type_tiscr">
+            <h2 class="type_title">Виды офисных ноутбуков.</h2>
+            <p class="type_descr">
+              Выбирайте ноутбуки на свой вкус по своему кошельку)
+            </p>
+          </div>
+          <div class="type_img">
+            <div class="choice_content">
+              <img class="cheap_img aimg" src="img1/budj.png" alt="" />
+              <a
+                href="https://pcmarket.uz/cat/noutbuki/?min_price=2700000&max_price=6045692"
+                class="cheap_title"
+                >Бюджетные</a
+              >
+            </div>
+            <div class="srdnebudj_content">
+              <img class="moreexp_img aimg" src="img1/sredbudj.jpg" alt="" />
+              <a
+                href="https://pcmarket.uz/cat/noutbuki/?min_price=5431177&max_price=9208108"
+                class="moreexp_title"
+                >Среднебюджетные</a
+              >
+            </div>
+            <div class="exp_content">
+              <img class="exp_img aimg" src="img1/dorog.jpg" alt="" />
+              <a
+                href="https://pcmarket.uz/cat/noutbuki/?min_price=9456069&max_price=31920000"
+                class="exp_title"
+              >
+                Дорогие</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="works">
+      <div class="container">
+        <h2 class="works_title">Как работает доставка?</h2>
+        <p class="works_descr">
+          Ниже представлен пример работы нашей доставки.
+        </p>
+        <div class="works_content">
+          <div class="works_purchase">
+            <img
+              src="img1/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application 1.png"
+              alt=""
+              class="purchase aimg"
+            />
+            <div class="circle">
+              <div class="pre_circle">1.</div>
+            </div>
+            <h3 class="purchase_title">Вы заказываете товар.</h3>
+            <p class="purchase_descr pd">
+              Мы обговариваем модель товара, точную дату когда нужно доставить,
+              адрес и контактный телефон.
+            </p>
+          </div>
+          <div class="works_warehouse">
+            <img src="img1/image 87.png" alt="" class="warehouse aimg" />
+            <div class="circle">
+              <div class="pre_circle">2.</div>
+            </div>
+            <h3 class="warehouse_title">Мы ищем товар на складе.</h3>
+            <p class="warehouse_descr pd">
+              Мы отправляемся на склад чтобы найти подходящую вам модель,
+              тщательно ее проверям и очень надежно упаковываем.
+            </p>
+          </div>
+          <div class="works_style">
+            <img src="img1/dostavka.jpg" alt="" class="style aimg" />
+            <div class="circle">
+              <div class="pre_circle">3.</div>
+            </div>
+            <h3 class="style_title">Отправка товара.</h3>
+            <p class="style_descr pd">
+              После тщательной упаковки мы загружаем товар в наши машины и
+              отправляем до вашего дома в установленный срок.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mail">
+      <div class="container">
+        <div class="social_content">
+          <h2 class="social_title">Подписывайте на нас в наших соц. сетях, там мы часто публикуем всякие скидки).</h2>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container2">
+        <div class="footer_content_middle">
+          <div class="contacts">
+            <h6 class="cont_title"> Контакты для связи</h6>
+            <p class="cont_descr"> Андрей - +998900211846 <br>
+            Сергей - +998333041327 <br>
+          Дмитрий - +998991402384</p>
+          </div>
+        </div>
+        <div class="footer__content_left">
+          <h6 id="contacts" class="footer__title">Социальные сети</h6>
+          <ul class="footer__list">
+            <li>
+              <a href="https://instagram.com/gshop.uz?igshid=YmMyMTA2M2Y="><img src="img1/instagram.png" alt />
+                <a href class="footer__link">Instagram</a></a>
+            </li>
+            <li>
+              <a href="https://e.mail.ru/inbox/?back=1">
+                <img src="img1/gmail.png" /><a
+                  href
+                  class="footer__link"
+                  >Email</a
+                ></a
+              >
+            </li>
+            <li>
+              <a href="@gshopuz_bot">
+                <img src="img1/тг.png" alt /><a
+                  href
+                  class="footer__link"
+                  >Telegram</a
+                ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content_right"></div>
+        <div class="filials">
+          <h6 class="loc_title">Наши филлиалы:</h6>
+          <p class="loc_descr">
+           <a href="https://yandex.uz/maps/-/CCUrB0uHHB"> Ташкент, ул. Буйюк Ипак Йули, 26. <br /></a>
+           <a href="https://yandex.uz/maps/-/CCUrB0F-XD">ТЦ Вега 1 этаж <br /></a> 
+          <a href="https://yandex.uz/maps/-/CCUrB0VMSC">  ТЦ Парус 3 этаж</a>
+          </p>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <div class="pop">
+      <form action="" class="pop__up">
+        <div class="pop__content">
+          <input type="text" class="theme" placeholder="Theme" />
+          <textarea
+            name=""
+            class="message"
+            id=""
+            cols="40"
+            rows="4"
+            placeholder="your message"
+          ></textarea>
+          <input type="email" class="email" placeholder="email" />
+          <div class="pop__btns">
+            <input
+              type="submit"
+              id="close"
+              value="close"
+              class="submit sub2"
+            /><input type="submit" class="submit" value="submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="../ПК/js/script.js"></script>
+    <script src="slider.js"></script>
+  </body>
+</html>
